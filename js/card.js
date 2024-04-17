@@ -8,7 +8,7 @@ document.getElementById('btn-discount').addEventListener('click', function () {
     const discountPrice = parseFloat(discountPriceString);
     
     
-    const afterDiscountPriceString = (regularPrice / 100) * 70;
+    const afterDiscountPriceString = (regularPrice / 100) * 50;
     const afterDiscountPrice = parseFloat(afterDiscountPriceString)
     discountField.innerText = afterDiscountPrice;
 
